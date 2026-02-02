@@ -1,80 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Resume</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>Neil Hoang – Security Operations Engineer</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-    <div class="resume">
-        <header>
-            <h1>YOUR NAME</h1>
-            <h2>Professional Title (e.g., Software Engineer)</h2>
-            <p>Email: name@email.com | Phone: (555) 000-0000 | LinkedIn: /in/yourname</p>
-        </header>
+<div class="resume">
 
-        <section>
-            <h3>Professional Summary</h3>
-            <p>A brief 2-3 sentence overview of your career highlights and what you bring to the table. Keep it punchy and focused on results.</p>
-        </section>
+  <!-- HEADER -->
+  <header>
+    <h1>Neil Hoang</h1>
+    <h2>Security Operations Engineer</h2>
+    <p>
+      San José, CA • neil.hoang@email.com • linkedin.com/in/neilhoang • github.com/neilhoang
+    </p>
+  </header>
 
-        <section>
-            <h3>Technical Skills</h3>
-            <div class="skills">
-                <ul>
-                    <li><strong>Languages:</strong></li>
-                    <li>JavaScript (ES6+)</li>
-                    <li>Python</li>
-                    <li>HTML5/CSS3</li>
-                </ul>
-                <ul>
-                    <li><strong>Frameworks:</strong></li>
-                    <li>React.js</li>
-                    <li>Node.js</li>
-                    <li>Tailwind CSS</li>
-                </ul>
-                <ul>
-                    <li><strong>Tools:</strong></li>
-                    <li>Git/GitHub</li>
-                    <li>Docker</li>
-                    <li>AWS</li>
-                </ul>
-            </div>
-        </section>
+  <!-- SUMMARY -->
+  <section>
+    <h3>Professional Summary</h3>
+    <p>
+      Security Operations and Infrastructure Engineer with enterprise experience in vulnerability management, monitoring platforms, 
+      endpoint security, and cloud-hybrid environments. Proven track record managing SolarWinds Orion, Jamf Pro, Intune, Windows Server, 
+      and backup platforms such as Veeam. Strong alignment with NIST, MITRE ATT&CK, and modern SOC operations.
+    </p>
+  </section>
 
-        <section>
-            <h3>Experience</h3>
-            <div class="job">
-                <h4>Senior Developer — Tech Solutions Inc.</h4>
-                <span>January 2022 – Present</span>
-                <ul>
-                    <li>Led a team of 4 to migrate legacy systems to modern cloud architecture.</li>
-                    <li>Improved site load speed by 40% through code splitting and asset optimization.</li>
-                </ul>
-            </div>
-
-            <div class="job">
-                <h4>Web Developer — Creative Agency</h4>
-                <span>June 2019 – December 2021</span>
-                <ul>
-                    <li>Developed responsive front-end interfaces for 15+ high-traffic client websites.</li>
-                    <li>Collaborated with design teams to translate Figma mockups into functional code.</li>
-                </ul>
-            </div>
-        </section>
-
-        <section>
-            <h3>Certifications</h3>
-            <div class="certs">
-                <p>• AWS Certified Solutions Architect</p>
-                <p>• Google Professional Cloud Developer</p>
-                <p>• Meta Front-End Developer Professional Certificate</p>
-                <p>• CompTIA Security+</p>
-            </div>
-        </section>
+  <!-- SKILLS -->
+  <section>
+    <h3>Core Skills</h3>
+    <div class="skills">
+      <ul>
+        <li>Security Operations (SOC)</li>
+        <li>Vulnerability Management</li>
+        <li>Incident Response</li>
+        <li>MITRE ATT&CK</li>
+        <li>NIST 800-53 / RMF</li>
+        <li>Threat Intelligence</li>
+      </ul>
+      <ul>
+        <li>SolarWinds (NPM, NTA, SAM, WPM, IPAM)</li>
+        <li>Jamf Pro / Apple Business Manager</li>
+        <li>Microsoft Intune / Entra ID</li>
+        <li>Windows Server 2016–2022</li>
+        <li>Azure & Hybrid Cloud</li>
+        <li>Veeam Backup & Replication</li>
+      </ul>
+      <ul>
+        <li>PowerShell & Python</li>
+        <li>SIEM & Log Analysis</li>
+        <li>Network Monitoring</li>
+        <li>Endpoint Security</li>
+        <li>DNS, DHCP, DFS, SMB</li>
+        <li>VMware & Hyper-V</li>
+      </ul>
     </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section>
+    <h3>Professional Experience</h3>
+
+    <div class="job">
+      <h4>Network Technician III / Security Operations</h4>
+      <span>City of San José — 2022 to Present</span>
+      <ul>
+        <li>Administer SolarWinds Orion (800+ nodes) including NPM, NTA, SAM, WPM, and IPAM.</li>
+        <li>Implemented alerting, dashboards, and health checks to reduce outage MTTR.</li>
+        <li>Led vulnerability remediation, patch management, and secure configuration changes.</li>
+        <li>Managed Windows Server upgrades (2016 → 2019) with snapshot and DB rollback strategies.</li>
+        <li>Integrated Jamf Pro, Intune, and ABM for secure endpoint lifecycle management.</li>
+        <li>Maintained Veeam backups, repositories, immutability, and restore validation.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <h4>Desktop Support Engineer</h4>
+      <span>City of San José — 2020 to 2022</span>
+      <ul>
+        <li>Provided Tier-2/3 support for macOS, Windows, and mobile devices.</li>
+        <li>Automated drive remapping, user profile cleanup, and device provisioning using PowerShell.</li>
+        <li>Supported secure remote access, VPNs, and endpoint hardening.</li>
+      </ul>
+    </div>
+
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section>
+    <h3>Certifications</h3>
+    <ul class="certs">
+      <li>CompTIA CySA+</li>
+      <li>CompTIA PenTest+ (PT0-003)</li>
+      <li>Microsoft AZ-900, SC-900</li>
+      <li>Jamf Associate / Jamf Pro</li>
+      <li>Apple Support Professional</li>
+    </ul>
+  </section>
+
+  <!-- EDUCATION -->
+  <section>
+    <h3>Education</h3>
+    <p>
+      Master of Science – Cybersecurity & Information Assurance  
+      <br />Western Governors University (WGU)
+    </p>
+  </section>
+
+</div>
 
 </body>
 </html>
